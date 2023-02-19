@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_0_fabric_pkg" />
+            <top_module name="tb_0_pkg" />
+            <top_module name="tb_0_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="2,000.001 ns"></ZoomEndTime>
+      <Cursor1Time time="393.909 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="174"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="38" />
+   <wvobject type="array" fp_name="/tb_0_top/test_id">
+      <obj_property name="ElementShortName">test_id[31:0]</obj_property>
+      <obj_property name="ObjectShortName">test_id[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/reset_p">
+      <obj_property name="ElementShortName">reset_p</obj_property>
+      <obj_property name="ObjectShortName">reset_p</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/data_i">
+      <obj_property name="ElementShortName">data_i[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_i[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/data_we">
+      <obj_property name="ElementShortName">data_we</obj_property>
+      <obj_property name="ObjectShortName">data_we</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/data_o">
+      <obj_property name="ElementShortName">data_o[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_o[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/data_rd">
+      <obj_property name="ElementShortName">data_rd</obj_property>
+      <obj_property name="ObjectShortName">data_rd</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/full">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/empty">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/cnt_wr">
+      <obj_property name="ElementShortName">cnt_wr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_wr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/cnt_rd">
+      <obj_property name="ElementShortName">cnt_rd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_rd[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/cnt_ok">
+      <obj_property name="ElementShortName">cnt_ok[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_ok[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/cnt_error">
+      <obj_property name="ElementShortName">cnt_error[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_error[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/show_ok">
+      <obj_property name="ElementShortName">show_ok[31:0]</obj_property>
+      <obj_property name="ObjectShortName">show_ok[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/show_error">
+      <obj_property name="ElementShortName">show_error[31:0]</obj_property>
+      <obj_property name="ObjectShortName">show_error[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/test_start">
+      <obj_property name="ElementShortName">test_start</obj_property>
+      <obj_property name="ObjectShortName">test_start</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/test_timeout">
+      <obj_property name="ElementShortName">test_timeout</obj_property>
+      <obj_property name="ObjectShortName">test_timeout</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/test_done">
+      <obj_property name="ElementShortName">test_done</obj_property>
+      <obj_property name="ObjectShortName">test_done</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/tick_current">
+      <obj_property name="ElementShortName">tick_current[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tick_current[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_0_top/cv_all">
+      <obj_property name="ElementShortName">cv_all</obj_property>
+      <obj_property name="ObjectShortName">cv_all</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/WIDTH">
+      <obj_property name="ElementShortName">WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider1084" type="divider">
+      <obj_property name="label">INTERFACE uut_cn0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/uut_cn0/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/uut_cn0/ei_req">
+      <obj_property name="ElementShortName">ei_req</obj_property>
+      <obj_property name="ObjectShortName">ei_req</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/uut_cn0/nmi_req">
+      <obj_property name="ElementShortName">nmi_req</obj_property>
+      <obj_property name="ObjectShortName">nmi_req</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/uut_cn0/resetn">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/uut_cn0/ser_rxd">
+      <obj_property name="ElementShortName">ser_rxd</obj_property>
+      <obj_property name="ObjectShortName">ser_rxd</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/uut_cn0/port4_in">
+      <obj_property name="ElementShortName">port4_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">port4_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/uut_cn0/port5_in">
+      <obj_property name="ElementShortName">port5_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">port5_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/uut_cn0/debug_mode">
+      <obj_property name="ElementShortName">debug_mode</obj_property>
+      <obj_property name="ObjectShortName">debug_mode</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/uut_cn0/ser_clk">
+      <obj_property name="ElementShortName">ser_clk</obj_property>
+      <obj_property name="ObjectShortName">ser_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/uut_cn0/ser_txd">
+      <obj_property name="ElementShortName">ser_txd</obj_property>
+      <obj_property name="ObjectShortName">ser_txd</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/uut_cn0/wfi_state">
+      <obj_property name="ElementShortName">wfi_state</obj_property>
+      <obj_property name="ObjectShortName">wfi_state</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/uut_cn0/port0_reg">
+      <obj_property name="ElementShortName">port0_reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">port0_reg[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/uut_cn0/port1_reg">
+      <obj_property name="ElementShortName">port1_reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">port1_reg[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/uut_cn0/port2_reg">
+      <obj_property name="ElementShortName">port2_reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">port2_reg[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/uut_cn0/port3_reg">
+      <obj_property name="ElementShortName">port3_reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">port3_reg[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/uut_cn0/aux_uart_rx">
+      <obj_property name="ElementShortName">aux_uart_rx</obj_property>
+      <obj_property name="ObjectShortName">aux_uart_rx</obj_property>
+   </wvobject>
+</wave_config>

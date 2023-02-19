@@ -1,0 +1,1384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_0_fabric_pkg" />
+            <top_module name="tb_0_pkg" />
+            <top_module name="tb_0_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0 ps"></ZoomStartTime>
+      <ZoomEndTime time="14 ps"></ZoomEndTime>
+      <Cursor1Time time="20,390,000 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="178"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="340" />
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/brk_req">
+      <obj_property name="ElementShortName">brk_req</obj_property>
+      <obj_property name="ObjectShortName">brk_req</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/bus_32">
+      <obj_property name="ElementShortName">bus_32</obj_property>
+      <obj_property name="ObjectShortName">bus_32</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/csr_ok_ext">
+      <obj_property name="ElementShortName">csr_ok_ext</obj_property>
+      <obj_property name="ObjectShortName">csr_ok_ext</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/csr_ok_int">
+      <obj_property name="ElementShortName">csr_ok_int</obj_property>
+      <obj_property name="ObjectShortName">csr_ok_int</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/dbg_req">
+      <obj_property name="ElementShortName">dbg_req</obj_property>
+      <obj_property name="ObjectShortName">dbg_req</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ebrkd_reg">
+      <obj_property name="ElementShortName">ebrkd_reg</obj_property>
+      <obj_property name="ObjectShortName">ebrkd_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/halt_reg">
+      <obj_property name="ElementShortName">halt_reg</obj_property>
+      <obj_property name="ObjectShortName">halt_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/resetb">
+      <obj_property name="ElementShortName">resetb</obj_property>
+      <obj_property name="ObjectShortName">resetb</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/mem_ready">
+      <obj_property name="ElementShortName">mem_ready</obj_property>
+      <obj_property name="ObjectShortName">mem_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/step_reg">
+      <obj_property name="ElementShortName">step_reg</obj_property>
+      <obj_property name="ObjectShortName">step_reg</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/vmode_reg">
+      <obj_property name="ElementShortName">vmode_reg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">vmode_reg[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/irq_bus">
+      <obj_property name="ElementShortName">irq_bus[4:0]</obj_property>
+      <obj_property name="ObjectShortName">irq_bus[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/mli_code">
+      <obj_property name="ElementShortName">mli_code[6:0]</obj_property>
+      <obj_property name="ObjectShortName">mli_code[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/csr_idata">
+      <obj_property name="ElementShortName">csr_idata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">csr_idata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/csr_rdata">
+      <obj_property name="ElementShortName">csr_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">csr_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/mem_rdata">
+      <obj_property name="ElementShortName">mem_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/mtvec_reg">
+      <obj_property name="ElementShortName">mtvec_reg[31:2]</obj_property>
+      <obj_property name="ObjectShortName">mtvec_reg[31:2]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/amo_4_dec">
+      <obj_property name="ElementShortName">amo_4_dec</obj_property>
+      <obj_property name="ObjectShortName">amo_4_dec</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/aop_4_add">
+      <obj_property name="ElementShortName">aop_4_add</obj_property>
+      <obj_property name="ObjectShortName">aop_4_add</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/aop_4_and">
+      <obj_property name="ElementShortName">aop_4_and</obj_property>
+      <obj_property name="ObjectShortName">aop_4_and</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/aop_4_or">
+      <obj_property name="ElementShortName">aop_4_or</obj_property>
+      <obj_property name="ObjectShortName">aop_4_or</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/aop_4_pack">
+      <obj_property name="ElementShortName">aop_4_pack</obj_property>
+      <obj_property name="ObjectShortName">aop_4_pack</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/aop_4_rol">
+      <obj_property name="ElementShortName">aop_4_rol</obj_property>
+      <obj_property name="ObjectShortName">aop_4_rol</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/aop_4_ror">
+      <obj_property name="ElementShortName">aop_4_ror</obj_property>
+      <obj_property name="ObjectShortName">aop_4_ror</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/aop_4_shfl">
+      <obj_property name="ElementShortName">aop_4_shfl</obj_property>
+      <obj_property name="ObjectShortName">aop_4_shfl</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/aop_4_sl">
+      <obj_property name="ElementShortName">aop_4_sl</obj_property>
+      <obj_property name="ObjectShortName">aop_4_sl</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/aop_4_sr">
+      <obj_property name="ElementShortName">aop_4_sr</obj_property>
+      <obj_property name="ObjectShortName">aop_4_sr</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/aop_4_xor">
+      <obj_property name="ElementShortName">aop_4_xor</obj_property>
+      <obj_property name="ObjectShortName">aop_4_xor</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/bits_4_dec">
+      <obj_property name="ElementShortName">bits_4_dec</obj_property>
+      <obj_property name="ObjectShortName">bits_4_dec</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/br_4_dec">
+      <obj_property name="ElementShortName">br_4_dec</obj_property>
+      <obj_property name="ObjectShortName">br_4_dec</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/br_5_cyout">
+      <obj_property name="ElementShortName">br_5_cyout</obj_property>
+      <obj_property name="ObjectShortName">br_5_cyout</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/br_5_ge">
+      <obj_property name="ElementShortName">br_5_ge</obj_property>
+      <obj_property name="ObjectShortName">br_5_ge</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/br_5_ne">
+      <obj_property name="ElementShortName">br_5_ne</obj_property>
+      <obj_property name="ObjectShortName">br_5_ne</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/br_5_uge">
+      <obj_property name="ElementShortName">br_5_uge</obj_property>
+      <obj_property name="ObjectShortName">br_5_uge</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/br_5_true">
+      <obj_property name="ElementShortName">br_5_true</obj_property>
+      <obj_property name="ObjectShortName">br_5_true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/csr_4_dec">
+      <obj_property name="ElementShortName">csr_4_dec</obj_property>
+      <obj_property name="ObjectShortName">csr_4_dec</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/csr_4_ok">
+      <obj_property name="ElementShortName">csr_4_ok</obj_property>
+      <obj_property name="ObjectShortName">csr_4_ok</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/dpc_wr">
+      <obj_property name="ElementShortName">dpc_wr</obj_property>
+      <obj_property name="ObjectShortName">dpc_wr</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/mcause_wr">
+      <obj_property name="ElementShortName">mcause_wr</obj_property>
+      <obj_property name="ObjectShortName">mcause_wr</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/mepc_wr">
+      <obj_property name="ElementShortName">mepc_wr</obj_property>
+      <obj_property name="ObjectShortName">mepc_wr</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/dbg_4_out">
+      <obj_property name="ElementShortName">dbg_4_out</obj_property>
+      <obj_property name="ObjectShortName">dbg_4_out</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/dret_4_dec">
+      <obj_property name="ElementShortName">dret_4_dec</obj_property>
+      <obj_property name="ObjectShortName">dret_4_dec</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ebrk_4_dec">
+      <obj_property name="ElementShortName">ebrk_4_dec</obj_property>
+      <obj_property name="ObjectShortName">ebrk_4_dec</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ecall_4_dec">
+      <obj_property name="ElementShortName">ecall_4_dec</obj_property>
+      <obj_property name="ObjectShortName">ecall_4_dec</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/eret_4_dec">
+      <obj_property name="ElementShortName">eret_4_dec</obj_property>
+      <obj_property name="ObjectShortName">eret_4_dec</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/exc_5_req">
+      <obj_property name="ElementShortName">exc_5_req</obj_property>
+      <obj_property name="ObjectShortName">exc_5_req</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/except_wr">
+      <obj_property name="ElementShortName">except_wr</obj_property>
+      <obj_property name="ObjectShortName">except_wr</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/fn3_4_0">
+      <obj_property name="ElementShortName">fn3_4_0</obj_property>
+      <obj_property name="ObjectShortName">fn3_4_0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/fn3_4_1">
+      <obj_property name="ElementShortName">fn3_4_1</obj_property>
+      <obj_property name="ObjectShortName">fn3_4_1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/fn3_4_2">
+      <obj_property name="ElementShortName">fn3_4_2</obj_property>
+      <obj_property name="ObjectShortName">fn3_4_2</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/fn3_4_3">
+      <obj_property name="ElementShortName">fn3_4_3</obj_property>
+      <obj_property name="ObjectShortName">fn3_4_3</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/fn3_4_4">
+      <obj_property name="ElementShortName">fn3_4_4</obj_property>
+      <obj_property name="ObjectShortName">fn3_4_4</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/fn3_4_5">
+      <obj_property name="ElementShortName">fn3_4_5</obj_property>
+      <obj_property name="ObjectShortName">fn3_4_5</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/fn3_4_6">
+      <obj_property name="ElementShortName">fn3_4_6</obj_property>
+      <obj_property name="ObjectShortName">fn3_4_6</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/fn3_4_7">
+      <obj_property name="ElementShortName">fn3_4_7</obj_property>
+      <obj_property name="ObjectShortName">fn3_4_7</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/fn5_4_04">
+      <obj_property name="ElementShortName">fn5_4_04</obj_property>
+      <obj_property name="ObjectShortName">fn5_4_04</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/fn5_4_05">
+      <obj_property name="ElementShortName">fn5_4_05</obj_property>
+      <obj_property name="ObjectShortName">fn5_4_05</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/fn5_4_07">
+      <obj_property name="ElementShortName">fn5_4_07</obj_property>
+      <obj_property name="ObjectShortName">fn5_4_07</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/fn5_4_0f">
+      <obj_property name="ElementShortName">fn5_4_0f</obj_property>
+      <obj_property name="ObjectShortName">fn5_4_0f</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/fn5_4_18">
+      <obj_property name="ElementShortName">fn5_4_18</obj_property>
+      <obj_property name="ObjectShortName">fn5_4_18</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/fn5_4_1f">
+      <obj_property name="ElementShortName">fn5_4_1f</obj_property>
+      <obj_property name="ObjectShortName">fn5_4_1f</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/fn7_4_00">
+      <obj_property name="ElementShortName">fn7_4_00</obj_property>
+      <obj_property name="ObjectShortName">fn7_4_00</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/fn7_4_04">
+      <obj_property name="ElementShortName">fn7_4_04</obj_property>
+      <obj_property name="ObjectShortName">fn7_4_04</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/fn7_4_10">
+      <obj_property name="ElementShortName">fn7_4_10</obj_property>
+      <obj_property name="ObjectShortName">fn7_4_10</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/fn7_4_14">
+      <obj_property name="ElementShortName">fn7_4_14</obj_property>
+      <obj_property name="ObjectShortName">fn7_4_14</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/fn7_4_20">
+      <obj_property name="ElementShortName">fn7_4_20</obj_property>
+      <obj_property name="ObjectShortName">fn7_4_20</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/fn7_4_24">
+      <obj_property name="ElementShortName">fn7_4_24</obj_property>
+      <obj_property name="ObjectShortName">fn7_4_24</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/fn7_4_30">
+      <obj_property name="ElementShortName">fn7_4_30</obj_property>
+      <obj_property name="ObjectShortName">fn7_4_30</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/fn7_4_34">
+      <obj_property name="ElementShortName">fn7_4_34</obj_property>
+      <obj_property name="ObjectShortName">fn7_4_34</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/fn7_4_00x">
+      <obj_property name="ElementShortName">fn7_4_00x</obj_property>
+      <obj_property name="ObjectShortName">fn7_4_00x</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/fn7_4_04x">
+      <obj_property name="ElementShortName">fn7_4_04x</obj_property>
+      <obj_property name="ObjectShortName">fn7_4_04x</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/fn7_4_10x">
+      <obj_property name="ElementShortName">fn7_4_10x</obj_property>
+      <obj_property name="ObjectShortName">fn7_4_10x</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/fn7_4_20x">
+      <obj_property name="ElementShortName">fn7_4_20x</obj_property>
+      <obj_property name="ObjectShortName">fn7_4_20x</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/fn7_4_30x">
+      <obj_property name="ElementShortName">fn7_4_30x</obj_property>
+      <obj_property name="ObjectShortName">fn7_4_30x</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/fnc_4_dec">
+      <obj_property name="ElementShortName">fnc_4_dec</obj_property>
+      <obj_property name="ObjectShortName">fnc_4_dec</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/flush_5_exc">
+      <obj_property name="ElementShortName">flush_5_exc</obj_property>
+      <obj_property name="ObjectShortName">flush_5_exc</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/imm6_nz">
+      <obj_property name="ElementShortName">imm6_nz</obj_property>
+      <obj_property name="ObjectShortName">imm6_nz</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/imm8_nz">
+      <obj_property name="ElementShortName">imm8_nz</obj_property>
+      <obj_property name="ObjectShortName">imm8_nz</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/inst_5_ret">
+      <obj_property name="ElementShortName">inst_5_ret</obj_property>
+      <obj_property name="ObjectShortName">inst_5_ret</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/inst_ret">
+      <obj_property name="ElementShortName">inst_ret</obj_property>
+      <obj_property name="ObjectShortName">inst_ret</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/invb_4_dec">
+      <obj_property name="ElementShortName">invb_4_dec</obj_property>
+      <obj_property name="ObjectShortName">invb_4_dec</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ld_4_dec">
+      <obj_property name="ElementShortName">ld_4_dec</obj_property>
+      <obj_property name="ObjectShortName">ld_4_dec</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ld_addr">
+      <obj_property name="ElementShortName">ld_addr</obj_property>
+      <obj_property name="ObjectShortName">ld_addr</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ld_insth">
+      <obj_property name="ElementShortName">ld_insth</obj_property>
+      <obj_property name="ObjectShortName">ld_insth</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ld_instl">
+      <obj_property name="ElementShortName">ld_instl</obj_property>
+      <obj_property name="ObjectShortName">ld_instl</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ld_pc">
+      <obj_property name="ElementShortName">ld_pc</obj_property>
+      <obj_property name="ObjectShortName">ld_pc</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ld_rmw">
+      <obj_property name="ElementShortName">ld_rmw</obj_property>
+      <obj_property name="ObjectShortName">ld_rmw</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ls_run">
+      <obj_property name="ElementShortName">ls_run</obj_property>
+      <obj_property name="ObjectShortName">ls_run</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/mem_lock">
+      <obj_property name="ElementShortName">mem_lock</obj_property>
+      <obj_property name="ObjectShortName">mem_lock</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/mem_rdy">
+      <obj_property name="ElementShortName">mem_rdy</obj_property>
+      <obj_property name="ObjectShortName">mem_rdy</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/mem_rdy_v">
+      <obj_property name="ElementShortName">mem_rdy_v</obj_property>
+      <obj_property name="ObjectShortName">mem_rdy_v</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/mem_write">
+      <obj_property name="ElementShortName">mem_write</obj_property>
+      <obj_property name="ObjectShortName">mem_write</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/opc_4_aui">
+      <obj_property name="ElementShortName">opc_4_aui</obj_property>
+      <obj_property name="ObjectShortName">opc_4_aui</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/opc_4_br">
+      <obj_property name="ElementShortName">opc_4_br</obj_property>
+      <obj_property name="ObjectShortName">opc_4_br</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/opc_4_fnc">
+      <obj_property name="ElementShortName">opc_4_fnc</obj_property>
+      <obj_property name="ObjectShortName">opc_4_fnc</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/opc_4_imm">
+      <obj_property name="ElementShortName">opc_4_imm</obj_property>
+      <obj_property name="ObjectShortName">opc_4_imm</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/opc_4_jal">
+      <obj_property name="ElementShortName">opc_4_jal</obj_property>
+      <obj_property name="ObjectShortName">opc_4_jal</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/opc_4_jalr">
+      <obj_property name="ElementShortName">opc_4_jalr</obj_property>
+      <obj_property name="ObjectShortName">opc_4_jalr</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/opc_4_ld">
+      <obj_property name="ElementShortName">opc_4_ld</obj_property>
+      <obj_property name="ObjectShortName">opc_4_ld</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/opc_4_lui">
+      <obj_property name="ElementShortName">opc_4_lui</obj_property>
+      <obj_property name="ObjectShortName">opc_4_lui</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/opc_4_op">
+      <obj_property name="ElementShortName">opc_4_op</obj_property>
+      <obj_property name="ObjectShortName">opc_4_op</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/opc_4_st">
+      <obj_property name="ElementShortName">opc_4_st</obj_property>
+      <obj_property name="ObjectShortName">opc_4_st</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/opc_4_sys">
+      <obj_property name="ElementShortName">opc_4_sys</obj_property>
+      <obj_property name="ObjectShortName">opc_4_sys</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/opc_4_amo">
+      <obj_property name="ElementShortName">opc_4_amo</obj_property>
+      <obj_property name="ObjectShortName">opc_4_amo</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/rr_4_zer">
+      <obj_property name="ElementShortName">rr_4_zer</obj_property>
+      <obj_property name="ObjectShortName">rr_4_zer</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/rd_n2">
+      <obj_property name="ElementShortName">rd_n2</obj_property>
+      <obj_property name="ObjectShortName">rd_n2</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/rd_nz">
+      <obj_property name="ElementShortName">rd_nz</obj_property>
+      <obj_property name="ObjectShortName">rd_nz</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/rs2_nz">
+      <obj_property name="ElementShortName">rs2_nz</obj_property>
+      <obj_property name="ObjectShortName">rs2_nz</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/run_mem">
+      <obj_property name="ElementShortName">run_mem</obj_property>
+      <obj_property name="ObjectShortName">run_mem</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/run_dec">
+      <obj_property name="ElementShortName">run_dec</obj_property>
+      <obj_property name="ObjectShortName">run_dec</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/run_exe">
+      <obj_property name="ElementShortName">run_exe</obj_property>
+      <obj_property name="ObjectShortName">run_exe</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/sbext_4_dec">
+      <obj_property name="ElementShortName">sbext_4_dec</obj_property>
+      <obj_property name="ObjectShortName">sbext_4_dec</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/sext1_07">
+      <obj_property name="ElementShortName">sext1_07</obj_property>
+      <obj_property name="ObjectShortName">sext1_07</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/sext1_15">
+      <obj_property name="ElementShortName">sext1_15</obj_property>
+      <obj_property name="ObjectShortName">sext1_15</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/sext1_23">
+      <obj_property name="ElementShortName">sext1_23</obj_property>
+      <obj_property name="ObjectShortName">sext1_23</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/sext1_31">
+      <obj_property name="ElementShortName">sext1_31</obj_property>
+      <obj_property name="ObjectShortName">sext1_31</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/shftd_4_dec">
+      <obj_property name="ElementShortName">shftd_4_dec</obj_property>
+      <obj_property name="ObjectShortName">shftd_4_dec</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/shfti_4_dec">
+      <obj_property name="ElementShortName">shfti_4_dec</obj_property>
+      <obj_property name="ObjectShortName">shfti_4_dec</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/src1_4_byp">
+      <obj_property name="ElementShortName">src1_4_byp</obj_property>
+      <obj_property name="ObjectShortName">src1_4_byp</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/src2_4_byp">
+      <obj_property name="ElementShortName">src2_4_byp</obj_property>
+      <obj_property name="ObjectShortName">src2_4_byp</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/src1_5_byp">
+      <obj_property name="ElementShortName">src1_5_byp</obj_property>
+      <obj_property name="ObjectShortName">src1_5_byp</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/src2_5_byp">
+      <obj_property name="ElementShortName">src2_5_byp</obj_property>
+      <obj_property name="ObjectShortName">src2_5_byp</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/shft_5_inp">
+      <obj_property name="ElementShortName">shft_5_inp</obj_property>
+      <obj_property name="ObjectShortName">shft_5_inp</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/slt_4_dec">
+      <obj_property name="ElementShortName">slt_4_dec</obj_property>
+      <obj_property name="ObjectShortName">slt_4_dec</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/sltu_4_dec">
+      <obj_property name="ElementShortName">sltu_4_dec</obj_property>
+      <obj_property name="ObjectShortName">sltu_4_dec</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/st_4_dec">
+      <obj_property name="ElementShortName">st_4_dec</obj_property>
+      <obj_property name="ObjectShortName">st_4_dec</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/st_out">
+      <obj_property name="ElementShortName">st_out</obj_property>
+      <obj_property name="ObjectShortName">st_out</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/stall_align">
+      <obj_property name="ElementShortName">stall_align</obj_property>
+      <obj_property name="ObjectShortName">stall_align</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/stall_cmp">
+      <obj_property name="ElementShortName">stall_cmp</obj_property>
+      <obj_property name="ObjectShortName">stall_cmp</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/stall_csr">
+      <obj_property name="ElementShortName">stall_csr</obj_property>
+      <obj_property name="ObjectShortName">stall_csr</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/stall_ldst">
+      <obj_property name="ElementShortName">stall_ldst</obj_property>
+      <obj_property name="ObjectShortName">stall_ldst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/strt_5_csr">
+      <obj_property name="ElementShortName">strt_5_csr</obj_property>
+      <obj_property name="ObjectShortName">strt_5_csr</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/vecti_5_req">
+      <obj_property name="ElementShortName">vecti_5_req</obj_property>
+      <obj_property name="ObjectShortName">vecti_5_req</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/wfi_4_dec">
+      <obj_property name="ElementShortName">wfi_4_dec</obj_property>
+      <obj_property name="ObjectShortName">wfi_4_dec</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/word_inst">
+      <obj_property name="ElementShortName">word_inst</obj_property>
+      <obj_property name="ObjectShortName">word_inst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/word_instu">
+      <obj_property name="ElementShortName">word_instu</obj_property>
+      <obj_property name="ObjectShortName">word_instu</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/wr_6_en">
+      <obj_property name="ElementShortName">wr_6_en</obj_property>
+      <obj_property name="ObjectShortName">wr_6_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/wreg_4_out">
+      <obj_property name="ElementShortName">wreg_4_out</obj_property>
+      <obj_property name="ObjectShortName">wreg_4_out</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/mem_trans">
+      <obj_property name="ElementShortName">mem_trans[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_trans[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/pc_1_adj">
+      <obj_property name="ElementShortName">pc_1_adj[2:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_1_adj[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/type_out">
+      <obj_property name="ElementShortName">type_out[2:0]</obj_property>
+      <obj_property name="ObjectShortName">type_out[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/mem_ble">
+      <obj_property name="ElementShortName">mem_ble[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_ble[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/c_rd">
+      <obj_property name="ElementShortName">c_rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">c_rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/c_rdp">
+      <obj_property name="ElementShortName">c_rdp[4:0]</obj_property>
+      <obj_property name="ObjectShortName">c_rdp[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/c_rs1">
+      <obj_property name="ElementShortName">c_rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">c_rs1[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/c_rs1p">
+      <obj_property name="ElementShortName">c_rs1p[4:0]</obj_property>
+      <obj_property name="ObjectShortName">c_rs1p[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/c_rs2">
+      <obj_property name="ElementShortName">c_rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">c_rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/c_rs2p">
+      <obj_property name="ElementShortName">c_rs2p[4:0]</obj_property>
+      <obj_property name="ObjectShortName">c_rs2p[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/rd_3_addr">
+      <obj_property name="ElementShortName">rd_3_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_3_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/rs1_3_addr">
+      <obj_property name="ElementShortName">rs1_3_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1_3_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/rs2_3_addr">
+      <obj_property name="ElementShortName">rs2_3_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2_3_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/shamt_5_out">
+      <obj_property name="ElementShortName">shamt_5_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">shamt_5_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/shamt_5_cmp">
+      <obj_property name="ElementShortName">shamt_5_cmp[4:0]</obj_property>
+      <obj_property name="ObjectShortName">shamt_5_cmp[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/slamt_5_out">
+      <obj_property name="ElementShortName">slamt_5_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">slamt_5_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/sramt_5_out">
+      <obj_property name="ElementShortName">sramt_5_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sramt_5_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/mcause_irq">
+      <obj_property name="ElementShortName">mcause_irq[6:0]</obj_property>
+      <obj_property name="ObjectShortName">mcause_irq[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/opc_3_out">
+      <obj_property name="ElementShortName">opc_3_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">opc_3_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/src1_5_rv0">
+      <obj_property name="ElementShortName">src1_5_rv0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">src1_5_rv0[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/src1_5_rv1">
+      <obj_property name="ElementShortName">src1_5_rv1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">src1_5_rv1[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/src1_5_rv2">
+      <obj_property name="ElementShortName">src1_5_rv2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">src1_5_rv2[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/src1_5_rv3">
+      <obj_property name="ElementShortName">src1_5_rv3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">src1_5_rv3[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/csr_achk">
+      <obj_property name="ElementShortName">csr_achk[11:0]</obj_property>
+      <obj_property name="ObjectShortName">csr_achk[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/csr_addr">
+      <obj_property name="ElementShortName">csr_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">csr_addr[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/addr_out">
+      <obj_property name="ElementShortName">addr_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/alu_5_add">
+      <obj_property name="ElementShortName">alu_5_add[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_5_add[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/alu_5_ain">
+      <obj_property name="ElementShortName">alu_5_ain[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_5_ain[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/alu_5_bin">
+      <obj_property name="ElementShortName">alu_5_bin[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_5_bin[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/alu_5_bim">
+      <obj_property name="ElementShortName">alu_5_bim[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_5_bim[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/alu_5_ext">
+      <obj_property name="ElementShortName">alu_5_ext[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_5_ext[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/alu_5_tst">
+      <obj_property name="ElementShortName">alu_5_tst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_5_tst[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/dst_6_data">
+      <obj_property name="ElementShortName">dst_6_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dst_6_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/inst">
+      <obj_property name="ElementShortName">inst[31:2]</obj_property>
+      <obj_property name="ObjectShortName">inst[31:2]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ls_addr_nxt">
+      <obj_property name="ElementShortName">ls_addr_nxt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ls_addr_nxt[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ls_amo_add">
+      <obj_property name="ElementShortName">ls_amo_add[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ls_amo_add[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/mem_addr">
+      <obj_property name="ElementShortName">mem_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/mem_idata">
+      <obj_property name="ElementShortName">mem_idata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_idata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/mtvec_addr">
+      <obj_property name="ElementShortName">mtvec_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mtvec_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/opc">
+      <obj_property name="ElementShortName">opc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">opc[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/pc_1_nxt">
+      <obj_property name="ElementShortName">pc_1_nxt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_1_nxt[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/pc_3_nxt">
+      <obj_property name="ElementShortName">pc_3_nxt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_3_nxt[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/rot_5_out">
+      <obj_property name="ElementShortName">rot_5_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rot_5_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/shfl_5_out">
+      <obj_property name="ElementShortName">shfl_5_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">shfl_5_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/pack_5_out">
+      <obj_property name="ElementShortName">pack_5_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pack_5_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/sl_5_out">
+      <obj_property name="ElementShortName">sl_5_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sl_5_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/sr_5_out">
+      <obj_property name="ElementShortName">sr_5_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sr_5_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/src1_4_out">
+      <obj_property name="ElementShortName">src1_4_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">src1_4_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/src1_5_out">
+      <obj_property name="ElementShortName">src1_5_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">src1_5_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/src2_4_out">
+      <obj_property name="ElementShortName">src2_4_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">src2_4_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/src2_5_out">
+      <obj_property name="ElementShortName">src2_5_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">src2_5_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/a_add_5_reg">
+      <obj_property name="ElementShortName">a_add_5_reg</obj_property>
+      <obj_property name="ObjectShortName">a_add_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/a_ain_5_reg">
+      <obj_property name="ElementShortName">a_ain_5_reg</obj_property>
+      <obj_property name="ObjectShortName">a_ain_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/a_and_5_reg">
+      <obj_property name="ElementShortName">a_and_5_reg</obj_property>
+      <obj_property name="ObjectShortName">a_and_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/a_bin_5_reg">
+      <obj_property name="ElementShortName">a_bin_5_reg</obj_property>
+      <obj_property name="ObjectShortName">a_bin_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/a_ext_5_reg">
+      <obj_property name="ElementShortName">a_ext_5_reg</obj_property>
+      <obj_property name="ObjectShortName">a_ext_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/a_or_5_reg">
+      <obj_property name="ElementShortName">a_or_5_reg</obj_property>
+      <obj_property name="ObjectShortName">a_or_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/a_tst_5_reg">
+      <obj_property name="ElementShortName">a_tst_5_reg</obj_property>
+      <obj_property name="ObjectShortName">a_tst_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/a_xor_5_reg">
+      <obj_property name="ElementShortName">a_xor_5_reg</obj_property>
+      <obj_property name="ObjectShortName">a_xor_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/alta_5_reg">
+      <obj_property name="ElementShortName">alta_5_reg</obj_property>
+      <obj_property name="ObjectShortName">alta_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/altb_5_reg">
+      <obj_property name="ElementShortName">altb_5_reg</obj_property>
+      <obj_property name="ObjectShortName">altb_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/amo_5_reg">
+      <obj_property name="ElementShortName">amo_5_reg</obj_property>
+      <obj_property name="ObjectShortName">amo_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/amo_6_reg">
+      <obj_property name="ElementShortName">amo_6_reg</obj_property>
+      <obj_property name="ObjectShortName">amo_6_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/bits_5_reg">
+      <obj_property name="ElementShortName">bits_5_reg</obj_property>
+      <obj_property name="ObjectShortName">bits_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/brk_int">
+      <obj_property name="ElementShortName">brk_int</obj_property>
+      <obj_property name="ObjectShortName">brk_int</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/csr_read">
+      <obj_property name="ElementShortName">csr_read</obj_property>
+      <obj_property name="ObjectShortName">csr_read</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/csr_write">
+      <obj_property name="ElementShortName">csr_write</obj_property>
+      <obj_property name="ObjectShortName">csr_write</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/dbg_int">
+      <obj_property name="ElementShortName">dbg_int</obj_property>
+      <obj_property name="ObjectShortName">dbg_int</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/debug_mode">
+      <obj_property name="ElementShortName">debug_mode</obj_property>
+      <obj_property name="ObjectShortName">debug_mode</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/dret_5_reg">
+      <obj_property name="ElementShortName">dret_5_reg</obj_property>
+      <obj_property name="ObjectShortName">dret_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ebrk_5_reg">
+      <obj_property name="ElementShortName">ebrk_5_reg</obj_property>
+      <obj_property name="ObjectShortName">ebrk_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ebrk_inst">
+      <obj_property name="ElementShortName">ebrk_inst</obj_property>
+      <obj_property name="ObjectShortName">ebrk_inst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ecall_5_reg">
+      <obj_property name="ElementShortName">ecall_5_reg</obj_property>
+      <obj_property name="ObjectShortName">ecall_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/eret_5_reg">
+      <obj_property name="ElementShortName">eret_5_reg</obj_property>
+      <obj_property name="ObjectShortName">eret_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/eret_inst">
+      <obj_property name="ElementShortName">eret_inst</obj_property>
+      <obj_property name="ObjectShortName">eret_inst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/flush_5_reg">
+      <obj_property name="ElementShortName">flush_5_reg</obj_property>
+      <obj_property name="ObjectShortName">flush_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/iack_int">
+      <obj_property name="ElementShortName">iack_int</obj_property>
+      <obj_property name="ObjectShortName">iack_int</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/iack_nmi">
+      <obj_property name="ElementShortName">iack_nmi</obj_property>
+      <obj_property name="ObjectShortName">iack_nmi</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/invb_5_reg">
+      <obj_property name="ElementShortName">invb_5_reg</obj_property>
+      <obj_property name="ObjectShortName">invb_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/jal_5_reg">
+      <obj_property name="ElementShortName">jal_5_reg</obj_property>
+      <obj_property name="ObjectShortName">jal_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/jal_6_reg">
+      <obj_property name="ElementShortName">jal_6_reg</obj_property>
+      <obj_property name="ObjectShortName">jal_6_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ld_5_reg">
+      <obj_property name="ElementShortName">ld_5_reg</obj_property>
+      <obj_property name="ObjectShortName">ld_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ld_6_reg">
+      <obj_property name="ElementShortName">ld_6_reg</obj_property>
+      <obj_property name="ObjectShortName">ld_6_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ldpc_1_reg">
+      <obj_property name="ElementShortName">ldpc_1_reg</obj_property>
+      <obj_property name="ObjectShortName">ldpc_1_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ldpc_2_reg">
+      <obj_property name="ElementShortName">ldpc_2_reg</obj_property>
+      <obj_property name="ObjectShortName">ldpc_2_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ls_amo_reg">
+      <obj_property name="ElementShortName">ls_amo_reg</obj_property>
+      <obj_property name="ObjectShortName">ls_amo_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ls_st_reg">
+      <obj_property name="ElementShortName">ls_st_reg</obj_property>
+      <obj_property name="ObjectShortName">ls_st_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/mem32_reg">
+      <obj_property name="ElementShortName">mem32_reg</obj_property>
+      <obj_property name="ObjectShortName">mem32_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/nmi_5_reg">
+      <obj_property name="ElementShortName">nmi_5_reg</obj_property>
+      <obj_property name="ObjectShortName">nmi_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/nmip_reg">
+      <obj_property name="ElementShortName">nmip_reg</obj_property>
+      <obj_property name="ObjectShortName">nmip_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/pack_5_reg">
+      <obj_property name="ElementShortName">pack_5_reg</obj_property>
+      <obj_property name="ObjectShortName">pack_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/rdymask_reg">
+      <obj_property name="ElementShortName">rdymask_reg</obj_property>
+      <obj_property name="ObjectShortName">rdymask_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/retire_6_reg">
+      <obj_property name="ElementShortName">retire_6_reg</obj_property>
+      <obj_property name="ObjectShortName">retire_6_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/rol_5_reg">
+      <obj_property name="ElementShortName">rol_5_reg</obj_property>
+      <obj_property name="ObjectShortName">rol_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ror_5_reg">
+      <obj_property name="ElementShortName">ror_5_reg</obj_property>
+      <obj_property name="ObjectShortName">ror_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/rs1by_4_reg">
+      <obj_property name="ElementShortName">rs1by_4_reg</obj_property>
+      <obj_property name="ObjectShortName">rs1by_4_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/rs2by_4_reg">
+      <obj_property name="ElementShortName">rs2by_4_reg</obj_property>
+      <obj_property name="ObjectShortName">rs2by_4_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/rs1z_4_reg">
+      <obj_property name="ElementShortName">rs1z_4_reg</obj_property>
+      <obj_property name="ObjectShortName">rs1z_4_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/rs2z_4_reg">
+      <obj_property name="ElementShortName">rs2z_4_reg</obj_property>
+      <obj_property name="ObjectShortName">rs2z_4_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/rs1nz_6_reg">
+      <obj_property name="ElementShortName">rs1nz_6_reg</obj_property>
+      <obj_property name="ObjectShortName">rs1nz_6_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/s4byp1_reg">
+      <obj_property name="ElementShortName">s4byp1_reg</obj_property>
+      <obj_property name="ObjectShortName">s4byp1_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/s5byp1_reg">
+      <obj_property name="ElementShortName">s5byp1_reg</obj_property>
+      <obj_property name="ObjectShortName">s5byp1_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/s4byp2_reg">
+      <obj_property name="ElementShortName">s4byp2_reg</obj_property>
+      <obj_property name="ObjectShortName">s4byp2_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/s5byp2_reg">
+      <obj_property name="ElementShortName">s5byp2_reg</obj_property>
+      <obj_property name="ObjectShortName">s5byp2_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/sbext_5_reg">
+      <obj_property name="ElementShortName">sbext_5_reg</obj_property>
+      <obj_property name="ObjectShortName">sbext_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/shfl_5_reg">
+      <obj_property name="ElementShortName">shfl_5_reg</obj_property>
+      <obj_property name="ObjectShortName">shfl_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/shftd_5_reg">
+      <obj_property name="ElementShortName">shftd_5_reg</obj_property>
+      <obj_property name="ObjectShortName">shftd_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/shfti_5_reg">
+      <obj_property name="ElementShortName">shfti_5_reg</obj_property>
+      <obj_property name="ObjectShortName">shfti_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/sl_5_reg">
+      <obj_property name="ElementShortName">sl_5_reg</obj_property>
+      <obj_property name="ObjectShortName">sl_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/slt_5_reg">
+      <obj_property name="ElementShortName">slt_5_reg</obj_property>
+      <obj_property name="ObjectShortName">slt_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/sltu_5_reg">
+      <obj_property name="ElementShortName">sltu_5_reg</obj_property>
+      <obj_property name="ObjectShortName">sltu_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/sr_5_reg">
+      <obj_property name="ElementShortName">sr_5_reg</obj_property>
+      <obj_property name="ObjectShortName">sr_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ss_reg">
+      <obj_property name="ElementShortName">ss_reg</obj_property>
+      <obj_property name="ObjectShortName">ss_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/st_5_reg">
+      <obj_property name="ElementShortName">st_5_reg</obj_property>
+      <obj_property name="ObjectShortName">st_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/trap_5_reg">
+      <obj_property name="ElementShortName">trap_5_reg</obj_property>
+      <obj_property name="ObjectShortName">trap_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/valid_0_reg">
+      <obj_property name="ElementShortName">valid_0_reg</obj_property>
+      <obj_property name="ObjectShortName">valid_0_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/valid_1_reg">
+      <obj_property name="ElementShortName">valid_1_reg</obj_property>
+      <obj_property name="ObjectShortName">valid_1_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/valid_2_reg">
+      <obj_property name="ElementShortName">valid_2_reg</obj_property>
+      <obj_property name="ObjectShortName">valid_2_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/valid_3_reg">
+      <obj_property name="ElementShortName">valid_3_reg</obj_property>
+      <obj_property name="ObjectShortName">valid_3_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/valid_4_reg">
+      <obj_property name="ElementShortName">valid_4_reg</obj_property>
+      <obj_property name="ObjectShortName">valid_4_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/valid_5_reg">
+      <obj_property name="ElementShortName">valid_5_reg</obj_property>
+      <obj_property name="ObjectShortName">valid_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/valid_6_reg">
+      <obj_property name="ElementShortName">valid_6_reg</obj_property>
+      <obj_property name="ObjectShortName">valid_6_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/wfi_5_reg">
+      <obj_property name="ElementShortName">wfi_5_reg</obj_property>
+      <obj_property name="ObjectShortName">wfi_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/wfi_reg">
+      <obj_property name="ElementShortName">wfi_reg</obj_property>
+      <obj_property name="ObjectShortName">wfi_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/wfi_state">
+      <obj_property name="ElementShortName">wfi_state</obj_property>
+      <obj_property name="ObjectShortName">wfi_state</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/wreg_5_reg">
+      <obj_property name="ElementShortName">wreg_5_reg</obj_property>
+      <obj_property name="ObjectShortName">wreg_5_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/wreg_6_reg">
+      <obj_property name="ElementShortName">wreg_6_reg</obj_property>
+      <obj_property name="ObjectShortName">wreg_6_reg</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ls_ainc_ini">
+      <obj_property name="ElementShortName">ls_ainc_ini[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ls_ainc_ini[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ls_ainc_reg">
+      <obj_property name="ElementShortName">ls_ainc_reg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ls_ainc_reg[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ls_sinc_reg">
+      <obj_property name="ElementShortName">ls_sinc_reg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ls_sinc_reg[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/pc_3_inc">
+      <obj_property name="ElementShortName">pc_3_inc[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_3_inc[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/dbg_5_reg">
+      <obj_property name="ElementShortName">dbg_5_reg[2:0]</obj_property>
+      <obj_property name="ObjectShortName">dbg_5_reg[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/dbg_type">
+      <obj_property name="ElementShortName">dbg_type[2:0]</obj_property>
+      <obj_property name="ObjectShortName">dbg_type[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ifull_3_nxt">
+      <obj_property name="ElementShortName">ifull_3_nxt[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ifull_3_nxt[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ifull_3_reg">
+      <obj_property name="ElementShortName">ifull_3_reg[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ifull_3_reg[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ls_type_reg">
+      <obj_property name="ElementShortName">ls_type_reg[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ls_type_reg[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/runcsr_reg">
+      <obj_property name="ElementShortName">runcsr_reg[2:0]</obj_property>
+      <obj_property name="ObjectShortName">runcsr_reg[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ls_ble_out">
+      <obj_property name="ElementShortName">ls_ble_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ls_ble_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ls_ph_ini">
+      <obj_property name="ElementShortName">ls_ph_ini[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ls_ph_ini[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ls_ph_reg">
+      <obj_property name="ElementShortName">ls_ph_reg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ls_ph_reg[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ls_sph_reg">
+      <obj_property name="ElementShortName">ls_sph_reg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ls_sph_reg[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/csrop_5_reg">
+      <obj_property name="ElementShortName">csrop_5_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">csrop_5_reg[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/csrop_6_reg">
+      <obj_property name="ElementShortName">csrop_6_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">csrop_6_reg[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/rd_4_reg">
+      <obj_property name="ElementShortName">rd_4_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_4_reg[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/rd_5_reg">
+      <obj_property name="ElementShortName">rd_5_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_5_reg[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/rd_6_reg">
+      <obj_property name="ElementShortName">rd_6_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_6_reg[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/rs1_4_reg">
+      <obj_property name="ElementShortName">rs1_4_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1_4_reg[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/rs1_5_reg">
+      <obj_property name="ElementShortName">rs1_5_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1_5_reg[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/rs2_4_reg">
+      <obj_property name="ElementShortName">rs2_4_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2_4_reg[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/br_5_reg">
+      <obj_property name="ElementShortName">br_5_reg[5:0]</obj_property>
+      <obj_property name="ObjectShortName">br_5_reg[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/irq_5_reg">
+      <obj_property name="ElementShortName">irq_5_reg[5:0]</obj_property>
+      <obj_property name="ObjectShortName">irq_5_reg[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/mli_5_reg">
+      <obj_property name="ElementShortName">mli_5_reg[6:0]</obj_property>
+      <obj_property name="ObjectShortName">mli_5_reg[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/byte_5_sel">
+      <obj_property name="ElementShortName">byte_5_sel[7:0]</obj_property>
+      <obj_property name="ObjectShortName">byte_5_sel[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ls_din3_reg">
+      <obj_property name="ElementShortName">ls_din3_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ls_din3_reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/opc_4_reg">
+      <obj_property name="ElementShortName">opc_4_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">opc_4_reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/opc_5_reg">
+      <obj_property name="ElementShortName">opc_5_reg[7:5]</obj_property>
+      <obj_property name="ObjectShortName">opc_5_reg[7:5]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/rdelay_reg">
+      <obj_property name="ElementShortName">rdelay_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rdelay_reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/mcause_reg">
+      <obj_property name="ElementShortName">mcause_reg[6:0]</obj_property>
+      <obj_property name="ObjectShortName">mcause_reg[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/imm_6_reg">
+      <obj_property name="ElementShortName">imm_6_reg[11:0]</obj_property>
+      <obj_property name="ObjectShortName">imm_6_reg[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/instu_3_reg">
+      <obj_property name="ElementShortName">instu_3_reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">instu_3_reg[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/alu_5_out">
+      <obj_property name="ElementShortName">alu_5_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_5_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/alu_6_reg">
+      <obj_property name="ElementShortName">alu_6_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_6_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/bit_5_sel">
+      <obj_property name="ElementShortName">bit_5_sel[31:0]</obj_property>
+      <obj_property name="ObjectShortName">bit_5_sel[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/csr_wdata">
+      <obj_property name="ElementShortName">csr_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">csr_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/csrdat_reg">
+      <obj_property name="ElementShortName">csrdat_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">csrdat_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/csrmod_6_reg">
+      <obj_property name="ElementShortName">csrmod_6_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">csrmod_6_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/dpc_reg">
+      <obj_property name="ElementShortName">dpc_reg[31:1]</obj_property>
+      <obj_property name="ObjectShortName">dpc_reg[31:1]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/dst_6d_data">
+      <obj_property name="ElementShortName">dst_6d_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dst_6d_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/e_c0">
+      <obj_property name="ElementShortName">e_c0[31:2]</obj_property>
+      <obj_property name="ObjectShortName">e_c0[31:2]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/e_c1">
+      <obj_property name="ElementShortName">e_c1[31:2]</obj_property>
+      <obj_property name="ObjectShortName">e_c1[31:2]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/e_c2">
+      <obj_property name="ElementShortName">e_c2[31:2]</obj_property>
+      <obj_property name="ObjectShortName">e_c2[31:2]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/imm_3_out">
+      <obj_property name="ElementShortName">imm_3_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imm_3_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/imm_4_reg">
+      <obj_property name="ElementShortName">imm_4_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imm_4_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/imm_5_reg">
+      <obj_property name="ElementShortName">imm_5_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imm_5_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/inst_3_reg">
+      <obj_property name="ElementShortName">inst_3_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_3_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ls_addr_reg">
+      <obj_property name="ElementShortName">ls_addr_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ls_addr_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ls_amo_out">
+      <obj_property name="ElementShortName">ls_amo_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ls_amo_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ls_data_out">
+      <obj_property name="ElementShortName">ls_data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ls_data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ls_data_reg">
+      <obj_property name="ElementShortName">ls_data_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ls_data_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ls_din1_reg">
+      <obj_property name="ElementShortName">ls_din1_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ls_din1_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ls_din2_reg">
+      <obj_property name="ElementShortName">ls_din2_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ls_din2_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/ls_sadd_reg">
+      <obj_property name="ElementShortName">ls_sadd_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ls_sadd_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/mem_rdat">
+      <obj_property name="ElementShortName">mem_rdat[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_rdat[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/mem_wdata">
+      <obj_property name="ElementShortName">mem_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/mepc_reg">
+      <obj_property name="ElementShortName">mepc_reg[31:1]</obj_property>
+      <obj_property name="ObjectShortName">mepc_reg[31:1]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/pack_5_mux">
+      <obj_property name="ElementShortName">pack_5_mux[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pack_5_mux[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/pc_1_reg">
+      <obj_property name="ElementShortName">pc_1_reg[31:1]</obj_property>
+      <obj_property name="ObjectShortName">pc_1_reg[31:1]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/pc_2_reg">
+      <obj_property name="ElementShortName">pc_2_reg[31:1]</obj_property>
+      <obj_property name="ObjectShortName">pc_2_reg[31:1]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/pc_3_reg">
+      <obj_property name="ElementShortName">pc_3_reg[31:1]</obj_property>
+      <obj_property name="ObjectShortName">pc_3_reg[31:1]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/pc_4_reg">
+      <obj_property name="ElementShortName">pc_4_reg[31:1]</obj_property>
+      <obj_property name="ObjectShortName">pc_4_reg[31:1]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/pc_5_reg">
+      <obj_property name="ElementShortName">pc_5_reg[31:1]</obj_property>
+      <obj_property name="ObjectShortName">pc_5_reg[31:1]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/rdata_reg">
+      <obj_property name="ElementShortName">rdata_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/shfl_5_mux">
+      <obj_property name="ElementShortName">shfl_5_mux[31:0]</obj_property>
+      <obj_property name="ObjectShortName">shfl_5_mux[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/sl_5_mux">
+      <obj_property name="ElementShortName">sl_5_mux[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sl_5_mux[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/sr_5_mux">
+      <obj_property name="ElementShortName">sr_5_mux[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sr_5_mux[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/src1_5_reg">
+      <obj_property name="ElementShortName">src1_5_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">src1_5_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/src2_5_reg">
+      <obj_property name="ElementShortName">src2_5_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">src2_5_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/regf_mem">
+      <obj_property name="ElementShortName">regf_mem[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">regf_mem[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/src1_4_rdata">
+      <obj_property name="ElementShortName">src1_4_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">src1_4_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/src2_4_rdata">
+      <obj_property name="ElementShortName">src2_4_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">src2_4_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/YRV/CPU/op_5_diff">
+      <obj_property name="ElementShortName">op_5_diff[32:0]</obj_property>
+      <obj_property name="ObjectShortName">op_5_diff[32:0]</obj_property>
+   </wvobject>
+</wave_config>

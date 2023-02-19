@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_0_fabric_pkg" />
+            <top_module name="tb_0_pkg" />
+            <top_module name="tb_0_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="83.771666 us"></ZoomStartTime>
+      <ZoomEndTime time="586.401667 us"></ZoomEndTime>
+      <Cursor1Time time="502.630000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="192"></NameColumnWidth>
+      <ValueColumnWidth column_width="115"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="65" />
+   <wave_markers>
+      <marker label="" time="38110000" />
+   </wave_markers>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/ei_req">
+      <obj_property name="ElementShortName">ei_req</obj_property>
+      <obj_property name="ObjectShortName">ei_req</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/nmi_req">
+      <obj_property name="ElementShortName">nmi_req</obj_property>
+      <obj_property name="ObjectShortName">nmi_req</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/resetb">
+      <obj_property name="ElementShortName">resetb</obj_property>
+      <obj_property name="ObjectShortName">resetb</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/ser_rxd">
+      <obj_property name="ElementShortName">ser_rxd</obj_property>
+      <obj_property name="ObjectShortName">ser_rxd</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/port4_in">
+      <obj_property name="ElementShortName">port4_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">port4_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/port5_in">
+      <obj_property name="ElementShortName">port5_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">port5_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/aux_uart_rx">
+      <obj_property name="ElementShortName">aux_uart_rx</obj_property>
+      <obj_property name="ObjectShortName">aux_uart_rx</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/bufr_done">
+      <obj_property name="ElementShortName">bufr_done</obj_property>
+      <obj_property name="ObjectShortName">bufr_done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/bufr_empty">
+      <obj_property name="ElementShortName">bufr_empty</obj_property>
+      <obj_property name="ObjectShortName">bufr_empty</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/bufr_full">
+      <obj_property name="ElementShortName">bufr_full</obj_property>
+      <obj_property name="ObjectShortName">bufr_full</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/bufr_ovr">
+      <obj_property name="ElementShortName">bufr_ovr</obj_property>
+      <obj_property name="ObjectShortName">bufr_ovr</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/bus_32">
+      <obj_property name="ElementShortName">bus_32</obj_property>
+      <obj_property name="ObjectShortName">bus_32</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/debug_mode">
+      <obj_property name="ElementShortName">debug_mode</obj_property>
+      <obj_property name="ObjectShortName">debug_mode</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/ld_wdata">
+      <obj_property name="ElementShortName">ld_wdata</obj_property>
+      <obj_property name="ObjectShortName">ld_wdata</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/mem_ready">
+      <obj_property name="ElementShortName">mem_ready</obj_property>
+      <obj_property name="ObjectShortName">mem_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/mem_write">
+      <obj_property name="ElementShortName">mem_write</obj_property>
+      <obj_property name="ObjectShortName">mem_write</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/port10_dec">
+      <obj_property name="ElementShortName">port10_dec</obj_property>
+      <obj_property name="ObjectShortName">port10_dec</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/port32_dec">
+      <obj_property name="ElementShortName">port32_dec</obj_property>
+      <obj_property name="ObjectShortName">port32_dec</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/port54_dec">
+      <obj_property name="ElementShortName">port54_dec</obj_property>
+      <obj_property name="ObjectShortName">port54_dec</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/port76_dec">
+      <obj_property name="ElementShortName">port76_dec</obj_property>
+      <obj_property name="ObjectShortName">port76_dec</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/rd_rdata">
+      <obj_property name="ElementShortName">rd_rdata</obj_property>
+      <obj_property name="ObjectShortName">rd_rdata</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/ser_clk">
+      <obj_property name="ElementShortName">ser_clk</obj_property>
+      <obj_property name="ObjectShortName">ser_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/ser_txd">
+      <obj_property name="ElementShortName">ser_txd</obj_property>
+      <obj_property name="ObjectShortName">ser_txd</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/wfi_state">
+      <obj_property name="ElementShortName">wfi_state</obj_property>
+      <obj_property name="ObjectShortName">wfi_state</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/mem_trans">
+      <obj_property name="ElementShortName">mem_trans[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_trans[1:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/mem_ble">
+      <obj_property name="ElementShortName">mem_ble[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_ble[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/rx_rdata">
+      <obj_property name="ElementShortName">rx_rdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_rdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/li_req">
+      <obj_property name="ElementShortName">li_req[15:0]</obj_property>
+      <obj_property name="ObjectShortName">li_req[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/port7_dat">
+      <obj_property name="ElementShortName">port7_dat[15:0]</obj_property>
+      <obj_property name="ObjectShortName">port7_dat[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/mcu_rdata">
+      <obj_property name="ElementShortName">mcu_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mcu_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/mem_addr">
+      <obj_property name="ElementShortName">mem_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/mem_wdata">
+      <obj_property name="ElementShortName">mem_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/io_rd_reg">
+      <obj_property name="ElementShortName">io_rd_reg</obj_property>
+      <obj_property name="ObjectShortName">io_rd_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/io_wr_reg">
+      <obj_property name="ElementShortName">io_wr_reg</obj_property>
+      <obj_property name="ObjectShortName">io_wr_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/mem_rd_reg">
+      <obj_property name="ElementShortName">mem_rd_reg</obj_property>
+      <obj_property name="ObjectShortName">mem_rd_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/mem_wr_reg">
+      <obj_property name="ElementShortName">mem_wr_reg</obj_property>
+      <obj_property name="ObjectShortName">mem_wr_reg</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/mem_ble_reg">
+      <obj_property name="ElementShortName">mem_ble_reg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_ble_reg[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/port0_reg">
+      <obj_property name="ElementShortName">port0_reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">port0_reg[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/port1_reg">
+      <obj_property name="ElementShortName">port1_reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">port1_reg[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/port2_reg">
+      <obj_property name="ElementShortName">port2_reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">port2_reg[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/port3_reg">
+      <obj_property name="ElementShortName">port3_reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">port3_reg[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/port4_reg">
+      <obj_property name="ElementShortName">port4_reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">port4_reg[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/port5_reg">
+      <obj_property name="ElementShortName">port5_reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">port5_reg[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/port6_reg">
+      <obj_property name="ElementShortName">port6_reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">port6_reg[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/mem_addr_reg">
+      <obj_property name="ElementShortName">mem_addr_reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_addr_reg[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/mem_wr_byte">
+      <obj_property name="ElementShortName">mem_wr_byte[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_wr_byte[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/mem_rdata">
+      <obj_property name="ElementShortName">mem_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/top_mem_addr">
+      <obj_property name="ElementShortName">top_mem_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">top_mem_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/top_mem_ble">
+      <obj_property name="ElementShortName">top_mem_ble[3:0]</obj_property>
+      <obj_property name="ObjectShortName">top_mem_ble[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/top_mem_trans">
+      <obj_property name="ElementShortName">top_mem_trans[1:0]</obj_property>
+      <obj_property name="ObjectShortName">top_mem_trans[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/top_mem_wdata">
+      <obj_property name="ElementShortName">top_mem_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">top_mem_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/top_mem_write">
+      <obj_property name="ElementShortName">top_mem_write</obj_property>
+      <obj_property name="ObjectShortName">top_mem_write</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/top_resetb">
+      <obj_property name="ElementShortName">top_resetb</obj_property>
+      <obj_property name="ObjectShortName">top_resetb</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/aux_uart_byte_data">
+      <obj_property name="ElementShortName">aux_uart_byte_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">aux_uart_byte_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/aux_uart_byte_valid">
+      <obj_property name="ElementShortName">aux_uart_byte_valid</obj_property>
+      <obj_property name="ObjectShortName">aux_uart_byte_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/boot_valid">
+      <obj_property name="ElementShortName">boot_valid</obj_property>
+      <obj_property name="ObjectShortName">boot_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/boot_address">
+      <obj_property name="ElementShortName">boot_address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">boot_address[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/boot_data">
+      <obj_property name="ElementShortName">boot_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">boot_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/boot_busy">
+      <obj_property name="ElementShortName">boot_busy</obj_property>
+      <obj_property name="ObjectShortName">boot_busy</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/boot_error">
+      <obj_property name="ElementShortName">boot_error</obj_property>
+      <obj_property name="ObjectShortName">boot_error</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/boot_address_narrow">
+      <obj_property name="ElementShortName">boot_address_narrow[13:0]</obj_property>
+      <obj_property name="ObjectShortName">boot_address_narrow[13:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/boot_valid_reg">
+      <obj_property name="ElementShortName">boot_valid_reg</obj_property>
+      <obj_property name="ObjectShortName">boot_valid_reg</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/boot_data_reg">
+      <obj_property name="ElementShortName">boot_data_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">boot_data_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/boot_address_width">
+      <obj_property name="ElementShortName">boot_address_width[31:0]</obj_property>
+      <obj_property name="ObjectShortName">boot_address_width[31:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,1 @@
+xsim -gui tb_behav  -testplusarg test_id=0 -view ./lvl0.wcfg -view ./uut.wcfg -view ./fifo.wcfg  -view ./trd0.wcfg
