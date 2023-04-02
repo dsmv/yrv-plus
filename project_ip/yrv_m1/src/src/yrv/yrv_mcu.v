@@ -25,6 +25,8 @@
 `define IO_PORT76 14'h0003                                 /* lsword of port 7/6 address   */
 `define MEM_BASE  16'h0000                                 /* msword of mem address        */
 
+`define RESET_BASE_AND_INT_VECTORS_FOR_RARS
+
 /* processor                                                                               */
 `include "yrv_top.v"
 /* serial receive                                                                          */
@@ -34,10 +36,10 @@
 /* serial port                                                                             */
 `include "serial_top.v"
 
-`ifdef INSTANCE_MEM
-/* instantiated memory                                                                     */
-`include "inst_mem.v"
-`endif
+// `ifdef INSTANCE_MEM
+// /* instantiated memory                                                                     */
+// `include "inst_mem.v"
+// `endif
 
 `ifdef BOOT_FROM_AUX_UART
 `include "boot_hex_parser.sv"
@@ -128,14 +130,18 @@ module yrv_mcu  (debug_mode, port0_reg, port1_reg, port2_reg, port3_reg, ser_clk
   reg    [15:0] port6_reg;
   reg    [15:0] mem_addr_reg;                              /* reg'd memory address         */
 
-`ifdef INSTANCE_MEM
-  wire   [31:0] mem_rdata;                                 /* raw read data                */
-`else
-  wire    [3:0] mem_wr_byte;                               /* system ram byte enables      */
-  //reg     [7:0] mcu_mem [0:4095];                          /* system ram                   */
-  reg     [31:0] mcu_mem [4096];                          /* system ram                   */
+// `ifdef INSTANCE_MEM
+//   wire   [31:0] mem_rdata;                                 /* raw read data                */
+// `else
+//   wire    [3:0] mem_wr_byte;                               /* system ram byte enables      */
+//   //reg     [7:0] mcu_mem [0:4095];                          /* system ram                   */
+//   reg     [31:0] mcu_mem [4095:0];                          /* system ram                   */
+//   reg    [31:0] mem_rdata;                                 /* raw read data                */
+// `endif
+
+  wire   [3:0] mem_wr_byte;                               /* system ram byte enables      */
+  reg    [31:0] mcu_mem [4095:0];                          /* system ram                   */
   reg    [31:0] mem_rdata;                                 /* raw read data                */
-`endif
 
   /*****************************************************************************************/
   /* 32-bit bus, no wait states, internal local interrupts                                 */
@@ -175,6 +181,8 @@ module yrv_mcu  (debug_mode, port0_reg, port1_reg, port2_reg, port3_reg, ser_clk
   wire [7:0] aux_uart_byte_data;
   wire       aux_uart_byte_valid;
 
+  `define CLK_FREQUENCY 50000000
+
   boot_uart_receiver
   # (
     .clk_frequency ( `CLK_FREQUENCY )
@@ -191,8 +199,8 @@ module yrv_mcu  (debug_mode, port0_reg, port1_reg, port2_reg, port3_reg, ser_clk
   wire        boot_valid;
   wire [31:0] boot_address;
   wire [31:0] boot_data;   
-  wire        boot_busy=0;
-  wire        boot_error=0;
+  wire        boot_busy;
+  wire        boot_error;
 
   localparam boot_address_width = $clog2 (16384);
   wire [boot_address_width - 1:0] boot_address_narrow;
@@ -203,7 +211,7 @@ module yrv_mcu  (debug_mode, port0_reg, port1_reg, port2_reg, port3_reg, ser_clk
     .address_width      ( boot_address_width ),
     .data_width         ( 32                 ),
     .clk_frequency      ( `CLK_FREQUENCY     ),
-    .timeout_in_seconds ( 64                 )
+    .timeout_in_seconds ( 2                  )
   )
   BOOT_HEX_PARSER
   (
@@ -217,11 +225,11 @@ module yrv_mcu  (debug_mode, port0_reg, port1_reg, port2_reg, port3_reg, ser_clk
     .out_address  ( boot_address_narrow ),
     .out_data     ( boot_data           ),
 
-    // .busy         ( boot_busy           ),
-    // .error        ( boot_error          )
+    .busy         ( boot_busy           ),
+    .error        ( boot_error          )
 
-    .busy         (            ),
-    .error        (           )    
+    // .busy         (            ),
+    // .error        (           )    
   );
 
   reg boot_valid_reg;
@@ -259,13 +267,15 @@ module yrv_mcu  (debug_mode, port0_reg, port1_reg, port2_reg, port3_reg, ser_clk
   /*****************************************************************************************/
   /* 32-bit memory (currently 1k x 32)                                                     */
   /*****************************************************************************************/
-`ifdef INSTANCE_MEM
-  inst_mem MEM    ( .mem_rdata(mem_rdata), .clk(clk), .mem_addr(mem_addr[15:0]),
-                    .mem_addr_reg(mem_addr_reg),.mem_ble_reg(mem_ble_reg),
-                    .mem_ready(mem_ready), .mem_trans(mem_trans), .mem_wdata(mem_wdata),
-                    .mem_wr_reg(mem_wr_reg) );
-`else
-  assign mem_wr_byte = {4{mem_wr_reg}} & mem_ble_reg & {4{mem_ready}};
+// `ifdef INSTANCE_MEM
+//   inst_mem MEM    ( .mem_rdata(mem_rdata), .clk(clk), .mem_addr(mem_addr[15:0]),
+//                     .mem_addr_reg(mem_addr_reg),.mem_ble_reg(mem_ble_reg),
+//                     .mem_ready(mem_ready), .mem_trans(mem_trans), .mem_wdata(mem_wdata),
+//                     .mem_wr_reg(mem_wr_reg) );
+// `else
+//   assign mem_wr_byte = {4{mem_wr_reg}} & mem_ble_reg & {4{mem_ready}};
+
+assign mem_wr_byte = {4{mem_wr_reg}} & mem_ble_reg & {4{mem_ready}};
 
 //   always @ (posedge clk) begin
 //     if (mem_trans[0]) begin
@@ -302,11 +312,11 @@ module yrv_mcu  (debug_mode, port0_reg, port1_reg, port2_reg, port3_reg, ser_clk
   /* or rely on read-only 32-bit wide memory inside inst_mem.v undef ifdef INSTANCE_MEM.   */
   /*****************************************************************************************/
 
-`ifdef INTEL_VERSION
-  `ifndef SIMULATION
-    `define NO_READMEMH_FOR_8_BIT_WIDE_MEM
-  `endif
-`endif
+// `ifdef INTEL_VERSION
+//   `ifndef SIMULATION
+//     `define NO_READMEMH_FOR_8_BIT_WIDE_MEM
+//   `endif
+// `endif
 
 // `ifndef NO_READMEMH_FOR_8_BIT_WIDE_MEM
 // //initial $readmemh("code_demo.mem8", mcu_mem);
@@ -314,11 +324,10 @@ module yrv_mcu  (debug_mode, port0_reg, port1_reg, port2_reg, port3_reg, ser_clk
 // `endif
 
 initial begin
-    $readmemh("../p0_text.hex", mcu_mem, 0);
-    $readmemh("../p0_data.hex", mcu_mem, 2048);
+    $readmemh("../p0_memory.hex", mcu_mem, 0);
 end    
 
-`endif
+//`endif
 
   /*****************************************************************************************/
   /* bus interface                                                                         */

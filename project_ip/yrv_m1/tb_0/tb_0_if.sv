@@ -27,6 +27,8 @@ interface tb_0_if( input clk );
     // variable
     logic [7:0]     _q_rx[$];  //! queue for rx data
 
+    logic [7:0]     _q_tx[$];  //! queue for tx data
+
     logic           rx_start;
     logic           rx_step;
     logic           rx_stop;
@@ -48,6 +50,7 @@ interface tb_0_if( input clk );
         rx_data = '0;
         fork
             grab_rx();
+            send_tx();
         join_none
 
     endtask
@@ -64,7 +67,8 @@ interface tb_0_if( input clk );
 
         automatic int           state=0;
         automatic int           stop_bit;
-        automatic int           full_period_cnt=80;
+        //automatic int           full_period_cnt=80;
+        automatic int           full_period_cnt=430;
         automatic logic [7:0]   rx;
 
 
@@ -75,6 +79,7 @@ interface tb_0_if( input clk );
             rx_start = 1;
             repeat (full_period_cnt) @(posedge clk);
             rx_start = 0;
+            repeat (full_period_cnt/2) @(posedge clk);
 
             for( int ii=0; ii<8; ii++ ) begin
                 rx[ii] = ser_txd;
@@ -96,6 +101,34 @@ interface tb_0_if( input clk );
                 @(posedge clk iff ser_txd); // wait for ser_txd=1
             end
 
+       end
+
+    endtask
+
+    task send_tx();
+
+        automatic int           full_period_cnt=430;
+        automatic logic [7:0]   tx;
+
+
+        ser_rxd <= 1;
+        
+        for( ; ; ) begin
+            @(posedge clk iff _q_tx.size()!=0 );
+            tx = _q_tx.pop_front();
+
+            ser_rxd <= #1 0;
+            repeat (full_period_cnt) @(posedge clk);
+
+            for( int ii=0; ii<8; ii++ ) begin
+                ser_rxd <= #1 tx[ii];
+                repeat (full_period_cnt) @(posedge clk);
+            end
+
+            ser_rxd <= #1 1;
+            repeat (full_period_cnt) @(posedge clk);
+
+            repeat (full_period_cnt/4) @(posedge clk);
         end
 
 

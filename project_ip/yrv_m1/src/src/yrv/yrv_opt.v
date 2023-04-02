@@ -22,7 +22,7 @@
 // `define SIM_VERSION                                        /* Simulation                   */
 // `define ICE40_VERSION                                      /* Lattice iCE40                */
 // `define SERIES7_VERSION                                    /* Xilinx 7-series              */
-// `define INTEL_VERSION                                      /* Intel FPGA (former Altera)   */
+`define INTEL_VERSION                                      /* Intel FPGA (former Altera)   */
 
 `ifdef ICE40_VERSION
 `elsif SERIES7_VERSION
@@ -39,13 +39,13 @@
 // `define INSTANCE_SUB                                       /* instantiated subtractor      */
 // `define INSTANCE_INC                                       /* instantiated incrementer     */
 // `define INSTANCE_CNT                                       /* instantiated count increment */
-  `define INSTANCE_MEM                                     /* instantiated memories        */
+ // `define INSTANCE_MEM                                     /* instantiated memories        */
 `endif
 
 `ifdef INTEL_VERSION
   `define BOOT_FROM_AUX_UART
-  `define EXPOSE_MEM_BUS
-  // `define RESET_BASE_AND_INT_VECTORS_FOR_RARS
+ // `define EXPOSE_MEM_BUS
+  `define RESET_BASE_AND_INT_VECTORS_FOR_RARS
 `endif
 
 /*******************************************************************************************/
@@ -129,3 +129,6 @@
 // `define INSTRET_64                                         /* 64-bit                       */
 // `define INSTRET_32                                      /* 32-bit                       */
 `define INSTRET_0                                       /* none                         */
+
+
+//`define BOOT_FROM_AUX_UART

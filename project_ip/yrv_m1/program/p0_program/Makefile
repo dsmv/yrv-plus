@@ -47,8 +47,10 @@ program.hex: main.S
 # make board - copy to board
 #  copies program.hext to board/program where is will be searched with synthesis tools
 board: program.hex
-	cp ./program.hex ../../p0_text.hex
-	cp ./data.hex    ../../p0_data.hex
+	../../utils/rars_postprocess/rars_postprocess
+	cp ./memory.hex ../../p0_memory.hex
+	#cp ./program.hex ../../p0_text.hex
+	#cp ./data.hex    ../../p0_data.hex
 	#cp ./program.hex ../../run_rzrd/p0_program.hex
 
 #########################################################

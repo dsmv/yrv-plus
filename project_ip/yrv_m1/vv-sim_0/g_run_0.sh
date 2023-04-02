@@ -1,1 +1,1 @@
-xsim -gui tb_behav  -testplusarg test_id=0 -view ./lvl0.wcfg -view ./uut.wcfg -view ./fifo.wcfg  -view ./trd0.wcfg
+xsim -gui tb_behav  -testplusarg test_id=0 -view ./top.wcfg  -view ./mcu.wcfg   -view ./cpu.wcfg   -view serial.wcfg -view boot.wcfg

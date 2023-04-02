@@ -5,38 +5,72 @@
 
             .text
 
+
             li a0, 0
 
-            la a1, str_hello   # write address
+            #la a1, str_hello   # write address
+            li  a1, 0x2000
             li a2, 0xA000
             li t6, 0xFFFF0000  # REG_HEX
 	    #li t6, 0x2020	
             li t5, 0xF
 
-            # for model - 660060
-            li  a0, 0x048
-            sh  a0, 0xC(t6)
+            li a0, 0x800F  # disable boot and all led on
+            sh a0, 4(t6)
 
-            li  a0, 0x040
-            sh  a0, 0xC(t6)
+            # for model - 660060
+            # li  a0, 0x048
+            # sh  a0, 0xC(t6)
+
+            # li  a0, 0x040
+            # sh  a0, 0xC(t6)
 
             # for fpga - 115200
-            # li  a0, 0x1A8
-            # sh  a0, 0xC(t6)
+            li  a0, 0x1A8
+            sh  a0, 0xC(t6)
 
-            # li  a0, 0x1A0
-            # sh  a0, 0xC(t6)
+            li  a0, 0x1A0
+            sh  a0, 0xC(t6)
 
+            li a0, 1
+            sb a0, 1(t6)
+
+            # li  a0, 0xAA
+            # sb  a0, 0xE(t6)
+
+            # li a0, 0x1234
+            # sh a0, 0(t6)
+
+            li a0, 0x45
+            sb a0, 1(t6)
+
+            li a0, 0x67
+            sb a0, 0(t6)
+
+            # li a0, 0xFF
+            # sb a0, 2(t6)
+
+            lb a0, 0(a1)
+            sb a0, 0(t6)    
+
+            # li a0, 0x4A
+            # sb  a0, 0xE(t6)
+
+            #j second_stage
+
+            li a0, 0x5
+            sb a0, 4(t6)
 
 
 start:      lb a0, 0(a1)
+            sb a0, 0(t6)
             addi a1, a1, 1
             andi a0, a0, 0xFF
             beq  a0, zero, second_stage
 
 wait_tx_ready:
             lb a4, 0x0F(t6)
-            sb a4, 0(t6)
+            #sb a4, 0(t6)
             andi a4, a4, 0x08
             beq a4, zero, wait_tx_ready
 
@@ -45,6 +79,29 @@ wait_tx_ready:
 
                      
 second_stage:                     
+            li a0, 0x2
+            sb a0, 4(t6)
+
+wait_rx_ready:
+            lb a4, 0x0F(t6)
+            sb a4, 1(t6)
+            andi a4, a4, 0x02
+            beq a4, zero, wait_rx_ready
+
+            li a0, 0x1
+            sb a0, 4(t6)
+
+            lb  a0, 0xE(t6)
+            sb  a0, 0xE(t6)
+            sb a0, 0(t6)
+            j second_stage
+
+
+            li a0, 0x2
+            sb a0, 2(t6)
+            li a0, 2
+            sb a0, 2(t6)
+
             j second_stage
 
 
@@ -127,7 +184,7 @@ second_stage:
 
 .section .rodata
 
-str_hello:  .string  "Hello, world! 123 \n"            
+str_hello:  .string  "Hello, world! 123 \r\n"            
 str_2:      .string  "next str" 
 
 

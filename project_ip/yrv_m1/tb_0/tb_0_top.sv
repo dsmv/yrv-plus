@@ -94,7 +94,8 @@ always #10 clk = ~clk;
 
 
 initial begin
-    #800000;
+    //#800000;
+    #6000000;
     $display( "Timeout");
     test_timeout = '1;
 end
@@ -169,12 +170,11 @@ initial begin
 
   @(posedge clk iff test_start=='1);
 
-  #2000;
-  
   case( test_id )
   0: begin
 
         tb_0_read_hello_world();
+        tb_0_echo();
         tb_0_get_result( cnt_wr, cnt_rd, cnt_ok, cnt_error );
   end
 
@@ -224,9 +224,10 @@ yrv_m1 yrv_m1
   .port2_reg        (       uut_cn0.port2_reg       ),
   .port3_reg        (       uut_cn0.port3_reg       ),
   .aux_uart_rx      (       uut_cn0.aux_uart_rx     )
+  //.aux_uart_rx      (       uut_cn0.ser_rxd     )
 );
 
-
+assign uut_cn0.aux_uart_rx = uut_cn0.ser_rxd | uut_cn0.port2_reg[15];
 
 
 endmodule

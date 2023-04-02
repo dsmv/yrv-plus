@@ -12,22 +12,21 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
-      <ZoomEndTime time="2,000.001 ns"></ZoomEndTime>
-      <Cursor1Time time="393.909 ns"></Cursor1Time>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="250.000001 us"></ZoomEndTime>
+      <Cursor1Time time="64.111000 us"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="174"></NameColumnWidth>
+      <NameColumnWidth column_width="170"></NameColumnWidth>
       <ValueColumnWidth column_width="66"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="38" />
+   <WVObjectSize size="37" />
+   <wave_markers>
+      <marker label="" time="62491000" />
+   </wave_markers>
    <wvobject type="array" fp_name="/tb_0_top/test_id">
       <obj_property name="ElementShortName">test_id[31:0]</obj_property>
       <obj_property name="ObjectShortName">test_id[31:0]</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/tb_0_top/reset_p">
-      <obj_property name="ElementShortName">reset_p</obj_property>
-      <obj_property name="ObjectShortName">reset_p</obj_property>
    </wvobject>
    <wvobject type="logic" fp_name="/tb_0_top/clk">
       <obj_property name="ElementShortName">clk</obj_property>

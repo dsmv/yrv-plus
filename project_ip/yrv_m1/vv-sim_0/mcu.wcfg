@@ -12,13 +12,13 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="83.771666 us"></ZoomStartTime>
-      <ZoomEndTime time="586.401667 us"></ZoomEndTime>
-      <Cursor1Time time="502.630000 us"></Cursor1Time>
+      <ZoomStartTime time="0.921133574 ms"></ZoomStartTime>
+      <ZoomEndTime time="5.851185286 ms"></ZoomEndTime>
+      <Cursor1Time time="5.029510000 ms"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="192"></NameColumnWidth>
-      <ValueColumnWidth column_width="115"></ValueColumnWidth>
+      <ValueColumnWidth column_width="111"></ValueColumnWidth>
    </column_width_setting>
    <WVObjectSize size="65" />
    <wave_markers>
@@ -43,6 +43,10 @@
    <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/ser_rxd">
       <obj_property name="ElementShortName">ser_rxd</obj_property>
       <obj_property name="ObjectShortName">ser_rxd</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/ser_txd">
+      <obj_property name="ElementShortName">ser_txd</obj_property>
+      <obj_property name="ObjectShortName">ser_txd</obj_property>
    </wvobject>
    <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/port4_in">
       <obj_property name="ElementShortName">port4_in[15:0]</obj_property>
@@ -115,10 +119,6 @@
    <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/ser_clk">
       <obj_property name="ElementShortName">ser_clk</obj_property>
       <obj_property name="ObjectShortName">ser_clk</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/ser_txd">
-      <obj_property name="ElementShortName">ser_txd</obj_property>
-      <obj_property name="ObjectShortName">ser_txd</obj_property>
    </wvobject>
    <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/wfi_state">
       <obj_property name="ElementShortName">wfi_state</obj_property>

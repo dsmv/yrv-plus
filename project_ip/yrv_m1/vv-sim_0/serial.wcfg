@@ -12,17 +12,18 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="1.194029 us"></ZoomStartTime>
-      <ZoomEndTime time="25.671642 us"></ZoomEndTime>
-      <Cursor1Time time="14.224400 us"></Cursor1Time>
+      <ZoomStartTime time="562.530438 us"></ZoomStartTime>
+      <ZoomEndTime time="3,601.860439 us"></ZoomEndTime>
+      <Cursor1Time time="1,524.835512 us"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="154"></NameColumnWidth>
+      <NameColumnWidth column_width="142"></NameColumnWidth>
       <ValueColumnWidth column_width="66"></ValueColumnWidth>
    </column_width_setting>
    <WVObjectSize size="26" />
    <wave_markers>
       <marker label="" time="182310000" />
+      <marker label="" time="38321690" />
    </wave_markers>
    <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/SERIAL/cks_mode">
       <obj_property name="ElementShortName">cks_mode</obj_property>
@@ -36,9 +37,25 @@
       <obj_property name="ElementShortName">ld_wdata</obj_property>
       <obj_property name="ObjectShortName">ld_wdata</obj_property>
    </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/SERIAL/tx_wdata">
+      <obj_property name="ElementShortName">tx_wdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_wdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/SERIAL/bufr_full">
+      <obj_property name="ElementShortName">bufr_full</obj_property>
+      <obj_property name="ObjectShortName">bufr_full</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/SERIAL/bufr_done">
+      <obj_property name="ElementShortName">bufr_done</obj_property>
+      <obj_property name="ObjectShortName">bufr_done</obj_property>
+   </wvobject>
    <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/SERIAL/rd_rdata">
       <obj_property name="ElementShortName">rd_rdata</obj_property>
       <obj_property name="ObjectShortName">rd_rdata</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/SERIAL/rx_rdata">
+      <obj_property name="ElementShortName">rx_rdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_rdata[7:0]</obj_property>
    </wvobject>
    <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/SERIAL/s_reset">
       <obj_property name="ElementShortName">s_reset</obj_property>
@@ -47,10 +64,6 @@
    <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/SERIAL/ser_rxd">
       <obj_property name="ElementShortName">ser_rxd</obj_property>
       <obj_property name="ObjectShortName">ser_rxd</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/SERIAL/tx_wdata">
-      <obj_property name="ElementShortName">tx_wdata[7:0]</obj_property>
-      <obj_property name="ObjectShortName">tx_wdata[7:0]</obj_property>
    </wvobject>
    <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/SERIAL/div_rate">
       <obj_property name="ElementShortName">div_rate[11:0]</obj_property>
@@ -80,25 +93,13 @@
       <obj_property name="ElementShortName">tx_sync</obj_property>
       <obj_property name="ObjectShortName">tx_sync</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/SERIAL/bufr_done">
-      <obj_property name="ElementShortName">bufr_done</obj_property>
-      <obj_property name="ObjectShortName">bufr_done</obj_property>
-   </wvobject>
    <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/SERIAL/bufr_empty">
       <obj_property name="ElementShortName">bufr_empty</obj_property>
       <obj_property name="ObjectShortName">bufr_empty</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/SERIAL/bufr_full">
-      <obj_property name="ElementShortName">bufr_full</obj_property>
-      <obj_property name="ObjectShortName">bufr_full</obj_property>
-   </wvobject>
    <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/SERIAL/bufr_ovr">
       <obj_property name="ElementShortName">bufr_ovr</obj_property>
       <obj_property name="ObjectShortName">bufr_ovr</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/tb_0_top/yrv_m1/yrv_mcu/SERIAL/rx_rdata">
-      <obj_property name="ElementShortName">rx_rdata[7:0]</obj_property>
-      <obj_property name="ObjectShortName">rx_rdata[7:0]</obj_property>
    </wvobject>
    <wvobject type="logic" fp_name="/tb_0_top/yrv_m1/yrv_mcu/SERIAL/ser_clk">
       <obj_property name="ElementShortName">ser_clk</obj_property>
