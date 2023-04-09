@@ -41,6 +41,10 @@ module yrv_m1
   input         aux_uart_rx                                /* auxiliary UART receive pin   */
 );
 
+logic           aux_uart_rx_b;
+
+//assign aux_uart_rx_b  = aux_uart_rx | port2_reg[15];
+
 yrv_mcu yrv_mcu
 (
   .clk,                                      
@@ -60,7 +64,8 @@ yrv_mcu yrv_mcu
   .port2_reg,                                
   .port3_reg,                                
 
-  .aux_uart_rx                               
+  //.aux_uart_rx      (  aux_uart_rx_b )                               
+  .aux_uart_rx
 );
 
 

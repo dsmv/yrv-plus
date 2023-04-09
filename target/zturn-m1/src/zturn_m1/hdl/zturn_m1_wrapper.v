@@ -1,7 +1,7 @@
 //Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2021.2 (lin64) Build 3367213 Tue Oct 19 02:47:39 MDT 2021
-//Date        : Tue Feb  7 01:01:14 2023
+//Date        : Sun Apr  9 22:58:29 2023
 //Host        : dell-nb running 64-bit unknown
 //Command     : generate_target zturn_m1_wrapper.bd
 //Design      : zturn_m1_wrapper

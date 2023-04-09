@@ -30,3 +30,7 @@ tb_name:               tb_0_serial test_id=    0 test_name:               direct
 tb_name:               tb_0_serial test_id=    0 test_name:               direct_base         TEST_FAILED *******
 tb_name:               tb_0_serial test_id=    0 test_name:               direct_base         TEST_FAILED *******
 tb_name:               tb_0_serial test_id=    0 test_name:               direct_base         TEST_PASSED
+tb_name:               tb_0_serial test_id=    0 test_name:               direct_base         TEST_FAILED *******
+tb_name:               tb_0_serial test_id=    0 test_name:               direct_base         TEST_FAILED *******
+tb_name:               tb_0_serial test_id=    0 test_name:               direct_base         TEST_FAILED *******
+tb_name:               tb_0_serial test_id=    0 test_name:               direct_base         TEST_PASSED

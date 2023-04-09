@@ -228,6 +228,7 @@ yrv_m1 yrv_m1
 );
 
 assign uut_cn0.aux_uart_rx = uut_cn0.ser_rxd | uut_cn0.port2_reg[15];
+//assign uut_cn0.aux_uart_rx = uut_cn0.ser_rxd;
 
 
 endmodule
