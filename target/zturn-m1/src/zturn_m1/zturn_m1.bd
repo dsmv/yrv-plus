@@ -267,7 +267,10 @@
             "value": "1000 Mbps"
           },
           "PCW_ENET0_RESET_ENABLE": {
-            "value": "0"
+            "value": "1"
+          },
+          "PCW_ENET0_RESET_IO": {
+            "value": "MIO 51"
           },
           "PCW_ENET_RESET_ENABLE": {
             "value": "1"
@@ -891,7 +894,7 @@
             "value": "54"
           },
           "PCW_MIO_TREE_PERIPHERALS": {
-            "value": "GPIO#Quad SPI Flash#Quad SPI Flash#Quad SPI Flash#Quad SPI Flash#Quad SPI Flash#Quad SPI Flash#GPIO#Quad SPI Flash#GPIO#GPIO#GPIO#I2C 1#I2C 1#CAN 0#CAN 0#Enet 0#Enet 0#Enet 0#Enet 0#Enet 0#Enet 0#Enet 0#Enet 0#Enet 0#Enet 0#Enet 0#Enet 0#USB 0#USB 0#USB 0#USB 0#USB 0#USB 0#USB 0#USB 0#USB 0#USB 0#USB 0#USB 0#SD 0#SD 0#SD 0#SD 0#SD 0#SD 0#SD 0#SD 0#UART 1#UART 1#GPIO#USB Reset#Enet 0#Enet 0"
+            "value": "GPIO#Quad SPI Flash#Quad SPI Flash#Quad SPI Flash#Quad SPI Flash#Quad SPI Flash#Quad SPI Flash#GPIO#Quad SPI Flash#GPIO#GPIO#GPIO#I2C 1#I2C 1#CAN 0#CAN 0#Enet 0#Enet 0#Enet 0#Enet 0#Enet 0#Enet 0#Enet 0#Enet 0#Enet 0#Enet 0#Enet 0#Enet 0#USB 0#USB 0#USB 0#USB 0#USB 0#USB 0#USB 0#USB 0#USB 0#USB 0#USB 0#USB 0#SD 0#SD 0#SD 0#SD 0#SD 0#SD 0#SD 0#SD 0#UART 1#UART 1#GPIO#ENET Reset#Enet 0#Enet 0"
           },
           "PCW_MIO_TREE_SIGNALS": {
             "value": "gpio[0]#qspi0_ss_b#qspi0_io[0]#qspi0_io[1]#qspi0_io[2]#qspi0_io[3]/HOLD_B#qspi0_sclk#gpio[7]#qspi_fbclk#gpio[9]#gpio[10]#gpio[11]#scl#sda#rx#tx#tx_clk#txd[0]#txd[1]#txd[2]#txd[3]#tx_ctl#rx_clk#rxd[0]#rxd[1]#rxd[2]#rxd[3]#rx_ctl#data[4]#dir#stp#nxt#data[0]#data[1]#data[2]#data[3]#clk#data[5]#data[6]#data[7]#clk#cmd#data[0]#data[1]#data[2]#data[3]#cd#wp#tx#rx#gpio[50]#reset#mdc#mdio"
@@ -1113,10 +1116,7 @@
             "value": "1"
           },
           "PCW_USB0_RESET_ENABLE": {
-            "value": "1"
-          },
-          "PCW_USB0_RESET_IO": {
-            "value": "MIO 51"
+            "value": "0"
           },
           "PCW_USB0_USB0_IO": {
             "value": "MIO 28 .. 39"
@@ -1964,6 +1964,9 @@
           },
           "C_NUM_PROBE_OUT": {
             "value": "6"
+          },
+          "C_PROBE_OUT0_INIT_VAL": {
+            "value": "0001"
           },
           "C_PROBE_OUT0_WIDTH": {
             "value": "1"
