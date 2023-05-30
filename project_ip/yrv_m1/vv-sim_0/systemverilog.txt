@@ -1,6 +1,5 @@
 ../src/src/yrv/yrv_mcu.v
 ../src/src/yrv_m1.sv
-../tb_0/tb_0_fabric_pkg.sv
 ../tb_0/tb_0_if.sv
 ../tb_0/tb_0_pkg.sv
 ../tb_0/tb_0_top.sv

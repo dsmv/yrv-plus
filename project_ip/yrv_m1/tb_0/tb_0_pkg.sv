@@ -7,7 +7,7 @@ import tb_0_fabric_pkg::*;
 
 
     // class
-    tb_0_fabric             _fabric;
+    //tb_0_fabric             _fabric;
 
     // interface
     virtual tb_0_if         _cn0;
@@ -21,7 +21,7 @@ import tb_0_fabric_pkg::*;
     // task
     task tb_0_init();
 
-        _fabric = new();
+        //_fabric = new();
 
         _cn0.set_reset( 0 ); // unreset
 

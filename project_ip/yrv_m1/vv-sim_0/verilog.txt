@@ -1,2 +1,1 @@
 ../tb/ip_core_sim/glbl.v
-../tb_0/yrv_alchrity.v
